@@ -1,0 +1,8 @@
+syntax: glob
+*~
+*~.nib
+*.mode*
+*.pbxuser
+.DS_Store
+build
+xcuserdata

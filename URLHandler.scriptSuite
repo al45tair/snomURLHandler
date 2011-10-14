@@ -1,0 +1,23 @@
+// URL Handler
+{
+  Name = URLHandler;
+  AppleEventCode = 'UrHD';
+  
+  Commands = {
+    "GetURL" = {
+      CommandClass = URLHandlerCommand;
+      AppleEventCode = GURL;
+      AppleEventClassCode = GURL;
+    };
+    "dial" = {
+      CommandClass = dialCommand;
+      AppleEventCode = DIAL;
+      AppleEventClassCode = DIAL;
+      UnnamedArgument = {
+	Type = "NSString";
+	AppleEventCode = "dNum";
+	Description = "The number or SIP URL to dial.  Numbers should be in International format (i.e., starting with a + character and a country code, for instance +1 for United States)."; 
+      };
+    };
+  };
+}

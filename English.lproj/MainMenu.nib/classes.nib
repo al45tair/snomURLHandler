@@ -1,0 +1,23 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {openPrefs = id; setPrefs = id; }; 
+            CLASS = MainController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                countryCodeField = NSTextField; 
+                internationalPrefixField = NSTextField; 
+                nationalPrefixField = NSTextField; 
+                outsideLinePrefixField = NSTextField; 
+                phonePasswordField = NSTextField; 
+                phoneURLField = NSTextField; 
+                phoneUsernameField = NSTextField; 
+                preferencesWindow = NSWindow; 
+                theMenu = NSMenu; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

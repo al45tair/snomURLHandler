@@ -1,0 +1,16 @@
+// URL Handler terminology file
+{
+  Name = "snomURLHandler commands";
+  Description = "Commands to control a snom telephone via URLs";
+  
+  Commands = {
+    "GetURL" = {
+      "Name" = "get URL";
+      "Description" = "Open a URL";
+    };
+    "dial" = {
+      "Name" = "dial";
+      "Description" = "Dial a number";
+    };
+  };
+}
